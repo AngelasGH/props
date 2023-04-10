@@ -1,3 +1,12 @@
+Name: Angelica Sotis
+Section: IK1
+Activity Title: Understanding ReactJS Props and State
+
+- This repository contains Task 1, Task 2 and Task 3.
+- Components created: Greeting (Task 1), Counter (Task 2), Person (Task 3), PersonList(Task 3 Cont...).
+
+Please Note: I combined all the tasks you've given for it to be more efficient this way because on Task 3, it technically merged the content on Task 1 and Task 2 for the Task 3 output.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

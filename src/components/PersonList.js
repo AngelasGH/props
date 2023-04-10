@@ -3,7 +3,6 @@
  * 
  */
 
-
 import { useState } from "react";
 import { Person } from "./Person";
 import '../style.css';
