@@ -1,3 +1,9 @@
+/**
+ * Task 3 (Cont..): Combining Props and State
+ * 
+ */
+
+
 import { useState } from "react";
 import { Person } from "./Person";
 import '../style.css';
@@ -14,6 +20,7 @@ export function PersonList(){
 
     return(
         <>
+        {/**Add new Person */}
         <button onClick={()=>setPersonList(prevList => [...prevList, {name: 'Kassandra', age: 23}, {name: 'Amira', age: 25}])}>Add new Person</button>
         <table>
             <tr>
@@ -24,6 +31,8 @@ export function PersonList(){
             {personList.map(( person, index) => (
             <tr key={index}>
                 <th><Person name={person.name} age={person.age}/></th>
+
+                {/**remove Person */}
                 <th><button onClick={()=>deleteList(index)}>Delete</button></th>
             </tr>
             ))}  
